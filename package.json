@@ -1,0 +1,14 @@
+{
+  "name": "ts-react-egg-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "buildfrontend": "cd frontend && yarn install && yarn build && cd ..",
+    "buildbackend": "cd backend && yarn install tsc",
+    "build": "npm run buildfrontend && npm run buildbackend"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+  }
+}

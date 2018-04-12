@@ -1,0 +1,9 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "js-import.root": "src",
+    "js-import.codeCompletionAction": false,
+    "js-import.filesToScan": "**/*.{jsx,tsx,js,ts}",
+    "csscomb.formatOnSave": true,
+    "csscomb.preset": "yandex",
+    "typescript.tsdk": "node_modules\\typescript\\lib"
+  }
